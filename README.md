@@ -1,3 +1,14 @@
+# MediCore-Agentic
+Secure Decision Support System for Clinical Workflows
+
+<b>Objective</b>: Developed an autonomous agent capable of solving complex clinical data tasks, achieving a 30%+ score on the GAIA Benchmark (General AI Assistants).
+
+<b>Architecture</b>: Implemented a Code-Action Agent using smolagents and Azure OpenAI (GPT-4o), enabling the agent to write and execute Python for medical calculations rather than relying on LLM intuition.
+
+<b>Security</b>: Engineered a secure execution environment using E2B sandboxing, ensuring that generated code runs in an isolated VM to prevent data leakage—a critical requirement for healthcare IT.
+
+<b>Tools</b>: Built custom RAG tools for clinical guideline retrieval and automated form-filling logic using vector-based retrieval.
+
 1. The Architecture: "Secure Medical Form Assistant"
 This application uses a CodeAgent to handle complex medical logic (like calculating dosages or summarizing lab results) while running everything inside a secure E2B Sandbox to ensure zero risk to the local hospital network.
 
