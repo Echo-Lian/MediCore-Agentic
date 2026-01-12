@@ -1,6 +1,10 @@
 import streamlit as st
 from smolagents import CodeAgent, AzureOpenAIModel, E2BExecutor, tool
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # --- 1. PRO-GRADE MEDICAL TOOLS ---
 @tool
