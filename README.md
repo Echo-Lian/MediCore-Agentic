@@ -9,7 +9,7 @@ Secure Decision Support System for Clinical Workflows
 
 **Architecture**: Code-Action Agent using smolagents and Azure OpenAI (GPT-4o), enabling the agent to write and execute Python for medical calculations rather than relying on LLM intuition.
 
-**Security**: Secure execution environment using E2B sandboxing, ensuring that generated code runs in an isolated VM to prevent data leakage - critical for healthcare IT.
+**Security**: Secure execution environment using E2B sandboxing, ensuring that generated code runs in an isolated VM to prevent data leakage.
 
 **Tools**: Custom RAG tools for clinical guideline retrieval and automated form-filling logic using vector-based retrieval.
 
